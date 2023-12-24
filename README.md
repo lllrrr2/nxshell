@@ -30,6 +30,10 @@ node devtools/rundev.js
 ```
 
 ## Features
+- In progress: backoup & restore user-defined config files(such as nginx.conf,etc) of Servers.
+- In progress: record commands that have been inputed to Server for security audit.
+- In progress: AI-GPT that can be used to generate shell scripts to manage your Servers by inputing human languages.
+- In progress: UI-interface to view Server status, such as network stream, dist usage, cpu usage, process list.
 
 - Support SSH protocol
 - Support Windows/Linux/MacOS platform
@@ -49,6 +53,7 @@ node devtools/rundev.js
 - Support Lock/UnLock ops on session
 - Support shortcut ops on session
 - Support SFTP online editor
+- Support lrz/lsz command
 
 ## Bug report and feature requests
 We collect bug reports and feature requests with GitHub [issues](https://github.com/nxshell/nxshell/issues).
@@ -77,13 +82,6 @@ We will focus on those most up-voted feature requests.
 - The NxShell community binary distribution version provides basic SSH/SFTP functions for everyone to use for free, and supports the author to continue to provide useful development tools. Welcome to donate to the NxShell community to continue to grow!
 - If the company/team needs to customize the function and apply it to the private software repository, please contact the author for technical support!
 
-## Donate
-<div align="center">
-  <div style="display: flex;justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/nxshell/nxshell/main/screenshots/wpay.jpg" width = "300" height = "300"/>
-  </div>
-</div>
-
 ## Language
 Current NxShell Only supports Chinese and English, If you are good at language translation, please contact us.
 
@@ -99,6 +97,11 @@ Welcome to pull request [here](https://github.com/nxshell/nxshell/pulls), who us
 * **QQ Group**: 199234440
 * **Wechat**: yuniot8
 * **Email**: 82828068 At qq.com
+
+## Thanks our Contributors
+<a href="https://github.com/nxshell/shell/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=nxshell/shell" />
+</a>
 
 <!--
 **nxshell/nxshell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
